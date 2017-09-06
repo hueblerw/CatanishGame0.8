@@ -1,0 +1,27 @@
+Building Components	Type	Squares	Height	Cost	Resources	Weight	HP	Lockable?	Sleep?	Fire?	Rotatable?
+Building Wall	border	1x1	10ft	$25	2 wood	2250	100	no	no	no	yes
+Door	border	1x1	10ft	$50	2 wood, 1 ore	2250	70	yes	no	no	yes
+Floor	floor	1x1	0ft	$5	-	550	50	no	no	no	no
+Bed	object	1.6x1.6	3ft	$150	1.5 wood	255	40	no	yes	no	yes
+Cot	object	1.6x0.8	3ft	$70	1 wood	145	25	no	yes	no	yes
+Table	object	1x1	3ft	$60	.5 wood	100	25	no	no	no	no
+Chair	object	0.5x0.5	4ft	$30	.25 wood	20	15	no	no	no	yes
+Fireplace	object	2x1	5ft	$100	2 brick	5000	150	no	no	yes	yes
+Road	floor-offset	2x1	0ft	$12	1 brick	1100	120	no	no	no	yes
+Road Crossing	floor	2x2	0ft	$24	2 brick	2200	240	no	no	no	no
+Dirt Road	floor	1x1	0ft	$4	-	550	40	no	no	no	no
+Desk	object	1x1.6	3ft	$120	.75 wood	175	40	no	no	no	yes
+Cabinet	object	.5x1	6ft	$45	1 wood	225	80	no	no	no	no
+Chest	object	1x.5	3ft	$200	1 wood, 1 ore	400	150	yes	no	no	yes
+Strong Door	border	1x1	10ft	$150	1 wood, 2 ore, 1 brick	3500	200	yes	no	no	yes
+Tent	object	4x4	7ft	$200	6 wool	60	40	no	yes	no	no
+Campire	floor	1x1	1ft	$75	1 brick	1000	50	no	no	yes	no
+Farm Plot	floor	10x10	0ft	$250	6 wood	55000	400	no	no	no	no
+Stone Pile	floor	4x4	0ft	$250	1 brick	8800	64	no	no	no	no
+Metal Pile	floor	4x4	0ft	$250	1 brick	8800	64	no	no	no	no
+Wood Pile	floor	4x4	0ft	$250	1 brick	8800	64	no	no	no	no
+***** Don't erase this!  Only put comments below this line *****											
+Furniture comes from this website											
+http://www.ewtaz.com/images/uploads/average-weight-furniture-2.pdf											
+Wood has a weight of 45 lbs / cubic foot											
+Walls are assumed to be 1 fot thick in this context										
